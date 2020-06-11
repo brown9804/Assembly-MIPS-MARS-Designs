@@ -233,7 +233,6 @@ averageX:
 	addu $s1, $zero, $v1
 	mflo $v0     # Move quotient
 	addu $s0, $zero, $v0
-	# bgez $t3, printings # if average go and print the result
 	j printings
 # 							Ask for carry condition
 no_carry:
