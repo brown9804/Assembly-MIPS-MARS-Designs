@@ -1,7 +1,7 @@
 #                 IE0321 Digital Computer Structures I
 #                        Belinda Brown Ramirez
 #                        timna.brown@ucr.ac.cr
-#                             May, 2020
+#                             June, 2020
 
 
 # It is for a MIPS architecture
