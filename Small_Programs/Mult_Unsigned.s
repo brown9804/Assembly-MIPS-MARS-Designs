@@ -90,7 +90,7 @@ printings:
   la $a0, result0
   syscall
 
-  li $v0, 1  # if using mars replace 1 by 36 to print as an unsigned
+  li $v0, 36  # print unsigned
   add $a0, $t3, $zero
   syscall
 
@@ -98,7 +98,7 @@ printings:
   la $a0, result1
   syscall
 
-  li $v0, 1 # if using mars replace 1 by 36 to print as an unsigned
+  li $v0, 36  # print unsigned
   add $a0, $t2, $zero
   syscall
 
