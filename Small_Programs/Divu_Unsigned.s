@@ -157,7 +157,6 @@ shifts:
   andi $t1, $t1, 1 # where #2 is num2
 
 neg_bit:
-  # num2 == zero need iteration
   beq $s2, $zero, iteration
   # 0011 00#r#r #r#r#r#r #r#r#r#r iiii iiii iiii iiii
   andi $t3, $t3, 1  # where #r is remainder
