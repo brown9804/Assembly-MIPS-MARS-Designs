@@ -2,7 +2,7 @@
 
 ----------
 
-University if Costa Rica
+University of Costa Rica
 
 Belinda Brown, timna.brown@ucr.ac.cr
 
