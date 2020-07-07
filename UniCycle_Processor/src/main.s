@@ -121,14 +121,26 @@ addi $s1, $s1, 1 # counter + 1
 j loop
 
 value:
-  #### Here will be printing
-  li $v0, 4
-  la $a0, result
-  syscall
+#### Here will be printing
+li $v0, 4
+la $a0, result
+syscall
 
-  move $a0, $s1
-  li $v0,1   # print
-  syscall
+move $a0, $s1
+li $v0,1   # print
+syscall
 
-  li $v0, 10 # Terminate execution
-  syscall
+li $v0, 10 # Terminate execution
+syscall
+
+#******************************************************
+# MACHINE LANGUAGE
+#******************************************************
+
+# The machine language encoding of the program must
+# obtain the value of 32 bits. For each instruction,
+# all the values of the control signals of the unicycle
+# processor are determined, as well as the ALU signals.
+# It is determined if there are data and control risks
+# in the program carried out and when to forward or stop
+# the pipeline.
