@@ -144,3 +144,28 @@ syscall
 # It is determined if there are data and control risks
 # in the program carried out and when to forward or stop
 # the pipeline.
+
+
+## HEXADECIMAL TABLE --> MACHINE LANGUAGE OF main_Dr_Mips.s
+
+# Instruction	                     Type	                    opcode	           rs	         rt	       rd/Immediate      shamt     	func
+
+# setup_r:
+# li $a0, 34                    PSEUDOINSTRUCTION SET	     	 	 0x00
+# li $t7, 0                     PSEUDOINSTRUCTION SET	     	 	 0x00
+# addi $t6, $t6, 1              I            	                 0x08        0xAA        0xAA          0x01             0x00    		 NA
+# li $t5, 0                    PSEUDOINSTRUCTION SET	     	 	 0x00
+# li $t4, 1                    PSEUDOINSTRUCTION SET	     	 	 0x00
+# li $s0, 0                    PSEUDOINSTRUCTION SET	     	 	 0x00
+# li $s1, 0                    PSEUDOINSTRUCTION SET	     	 	 0x00
+
+# loop:
+# sub $a0, $a0, $t6             R                           	  0x00       0xAA        0x08          0x01            0x00   		 0x22
+# slt $t7, $a0, $t7             R                               0x00       0x04        0x17          0x12            0x00        0xa2
+# beq $t7, $t4, value           I         		                  0x04       0x08        0x09          value           0x00    		   NA
+# addi $t6, $t6, 2              I            	                  0x08       0xAA        0xAA          0x02            0x00    		   NA
+# addi $s1, $s1, 1              I            	                  0x08       0xAA        0xAA          0x01            0x00    		   NA
+# beq $t7, $t5, loop            I         		                  0x04       0x08        0x09          loop            0x00    		   NA
+
+# value:
+# move $v0, $s1                PSEUDOINSTRUCTION SET	     	 	 0x00
