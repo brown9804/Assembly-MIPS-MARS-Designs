@@ -29,13 +29,13 @@
 
 setup_r:
 ##### clean up area
-li $a0, 34 # num
-li $t7, 0 # verifier
+addi $a0, $a0, 34 # num
+addi $t7,$t7, 0 # verifier
 addi $t6, $t6, 1 # counter # further -->plus 2 each time
-li $t5, 0 # stop condition
-li $t4, 1 #compare dr.mips
-li $s0, 0 # result of subtract
-li $s1, 0 # counter loop
+addi $t5, $t5, 0 # stop condition
+addi $t4,$t4, 1 #compare dr.mips
+addi $s0,$s0, 0 # result of subtract
+addi $s1,$s1, 0 # counter loop
 
 loop:
 sub $a0, $a0, $t6 #  r_sub = num -counter
@@ -46,4 +46,4 @@ addi $s1, $s1, 1 # counter + 1
 beq $t7, $t5, loop #t7 == 0
 
 value:
-move $v0, $s1
+add $v0, $s1, $v0
