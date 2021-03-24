@@ -17,7 +17,7 @@ assembler thinking of a MIPS architecture with the MARS simulator.
 ## Contents:
 The content of this repository is detailed below.
 
-### Small_Programs
+### Small Programs
 1. Algorithm that works on words, regarding upper and lower case, is found in: Upper_Lower_case_program.s
 2. Algorithm for a recursive function of C(n,k), found at: RecursiveCnk.s
 3. Algorithm for calculating the arithmetic average, is found in: arithmeticAverage.s
@@ -26,4 +26,4 @@ The content of this repository is detailed below.
 
 ### Projects 
 
-
+- Unicycle processor
