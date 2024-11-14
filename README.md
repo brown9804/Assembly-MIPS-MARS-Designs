@@ -1,18 +1,20 @@
 # Assembly MIPS MARS
 
-----------
-
 University of Costa Rica
 
-Belinda Brown, timna.brown@ucr.ac.cr
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
 
-July, 2020
+Last updated: 2020-07-14
 
-----------
+------------------------------------------
 
+<div align="center">
+  <h3 style="color: #4CAF50;">Total Visitors</h3>
+  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
 
-Some programs that exemplify different algorithms developed in 
-assembler thinking of a MIPS architecture with the MARS simulator.
+> Some programs that exemplify different algorithms developed in assembler thinking of a MIPS architecture with the MARS simulator.
 
 ## Contents:
 The content of this repository is detailed below.
