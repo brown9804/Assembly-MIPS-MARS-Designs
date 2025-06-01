@@ -9,15 +9,7 @@ Last updated: 2020-07-14
 
 ------------------------------------------
 
-<div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
-</div>
-
-> Some programs that exemplify different algorithms developed in assembler thinking of a MIPS architecture with the MARS simulator.
-
-
-> The content of this repository is detailed below.
+> Some programs that exemplify different algorithms developed in assembler thinking of a MIPS architecture with the MARS simulator. The content of this repository is detailed below.
 
 ## Small Functions
 
@@ -37,3 +29,8 @@ Last updated: 2020-07-14
 ## Projects 
 
 - Unicycle processor
+
+<div align="center">
+  <h3 style="color: #4CAF50;">Total Visitors</h3>
+  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
